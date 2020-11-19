@@ -31,15 +31,25 @@ for ( i=1; i<101; i++) {
 
   if (i %3 == 0 && i%5 == 0) {
     console.log("fizzbuzz");
-    
-
+    var caso1 = "fizzbuzz";
+    var cleaner = document.getElementById('number').innerHTML;
+    document.getElementById('number').innerHTML = cleaner + "<li>" + caso1 + "</li>";
   } else if (i %3 == 0) {
     console.log("fizz");
+    var caso2 = "fizz";
+    var cleaner = document.getElementById('number').innerHTML;
+    document.getElementById('number').innerHTML = cleaner + "<li>" + caso2 + "</li>";
 
   } else if (i %5 == 0) {
     console.log("buzz");
+    var caso3 = "buzz";
+    var cleaner = document.getElementById('number').innerHTML;
+    document.getElementById('number').innerHTML = cleaner + "<li>" + caso3 + "</li>";
 
   } else {
     console.log(i);
+    var numero = i;
+    var cleaner = document.getElementById('number').innerHTML;
+    document.getElementById('number').innerHTML = cleaner + "<li>" + numero + "</li>";
   }
 }

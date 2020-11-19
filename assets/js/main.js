@@ -10,7 +10,7 @@
 
 //1 impostiamo un ciclo for per far si che conti tutti i numeri da 0 a 100;
 
-//2 a questo punto inseriamo i numeri generati dal programma nell array
+//2
 
 //3 impostiamo le ns condizioni:
 
@@ -22,18 +22,21 @@
 
 
 
-var number = Number()
+
 
 for ( i=1; i<101; i++) {
   //console.log(i);
   //abbiamo verificato che il nostro ciclo ha effettivamente contato tutti i numeri
   //impostiamo le ns condizioni
-  
-  if (i %3 == 0) {
-    console.log(i + " fizz");
-  }  else if (i %5 == 0) {
-     console.log(i + " buzz");
-  }else {
+
+  if (i %3 == 0) and (i%5 == 0) {
+    console.log("fizzbuzz");
+  } else if (i %3 == 0) {
+      console.log("fizz");
+  } else if (i %5 == 0) {
+    console.log("buzz");
+  } else {
     console.log(i);
   }
-  }
+
+}

@@ -6,19 +6,19 @@
 //Come faccio a sapere se un numero è divisibile per?
 //abbiamo visto qlk di particolare che possiamo usare?
 
-//1 creiamo una variabile a valore 0
 
-//2 impostiamo un ciclo for per far si che conti tutti i numeri da 0 a 100;
 
-//3 a questo punto inseriamo i numeri generati dal programma nell array
+//1 impostiamo un ciclo for per far si che conti tutti i numeri da 0 a 100;
 
-//4 impostiamo le ns condizioni:
+//2 a questo punto inseriamo i numeri generati dal programma nell array
 
-// se il numero è multiplo di 3 allora stampi Fizz
+//3 impostiamo le ns condizioni:
 
-// se il numero è multiplo di 5 stampi Buzz
+//4 se il numero è multiplo di 3 allora stampi Fizz
 
-// ulteriore condizione se il numero è multiplo di 3 e 5 stampi fizzbuzz.
+//5 se il numero è multiplo di 5 stampi Buzz
+
+//6 ulteriore condizione se il numero è multiplo di 3 e 5 stampi fizzbuzz.
 
 
 
@@ -27,13 +27,10 @@
    //abbiamo verificato che il nostro ciclo ha effettivamente contato tuti i numeri
    //impostiamo le ns condizioni
    if (i %3 == 0) {
-     console.log(i + "fizz");
+     console.log(i + " fizz");
    }  else if (i %5 == 0) {
-      console.log(i + "buzz");
-   } else if (true) {
-
+      console.log(i + " buzz");
+   } else if (i %3 == 0) and (i %5 == 0) {
+      console.log(i + " fizzbuzz");
    }
-
-
-
  }

@@ -22,15 +22,18 @@
 
 
 
- for ( i=1; i<101; i++) {
-   console.log(i);
-   //abbiamo verificato che il nostro ciclo ha effettivamente contato tuti i numeri
-   //impostiamo le ns condizioni
-   if (i %3 == 0) {
-     console.log(i + " fizz");
-   }  else if (i %5 == 0) {
-      console.log(i + " buzz");
-   } else if (i %3 == 0) and (i %5 == 0) {
-      console.log(i + " fizzbuzz");
-   }
- }
+var number = Number()
+
+for ( i=1; i<101; i++) {
+  //console.log(i);
+  //abbiamo verificato che il nostro ciclo ha effettivamente contato tutti i numeri
+  //impostiamo le ns condizioni
+  
+  if (i %3 == 0) {
+    console.log(i + " fizz");
+  }  else if (i %5 == 0) {
+     console.log(i + " buzz");
+  }else {
+    console.log(i);
+  }
+  }
